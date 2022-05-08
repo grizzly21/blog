@@ -57,7 +57,7 @@ body {
 
 .login-header-text-second {
     color: #60a1ff;
-    margin-left: 8px;
+    margin-left: 5px;
 }
 
 .login-form {
@@ -74,6 +74,10 @@ body {
 p.simple-text {
     margin-top: 35px;
 }
+
+
+/* All classes for form*/
+
 
 .form {
     height: 346px;
@@ -105,6 +109,11 @@ p.simple-text {
     border-radius: 4px;
 }
 
+input:focus-visible{
+    border: none;
+}
+
+
 .inner_form_block input::placeholder {
     color: #BFC4CA;
     line-height: 24px;
@@ -128,9 +137,12 @@ p.simple-text {
 }
 
 .btn-submit:hover {
-    background-color: #5a98f3;
+    background-color: #2065CA;
     cursor: pointer;
 }
+
+
+/* When registered */
 
 .link_block{
     height: 80px;

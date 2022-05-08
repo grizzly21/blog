@@ -103,5 +103,35 @@
 }
 
 .btn-add-story{
+    width: 96px;
+    height: 34px;
+    color: #FFFFFF;
 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    background-color: #3884F2;
+    border-radius: 4px;
+    transition: background-color 0.1s linear;
+}
+
+/* STORY BOARD*/
+
+.story-board{
+    display: grid;
+    grid-template-columns: 334px 334px 334px 334px;
+    grid-column-gap: 16px;
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 28px;
+    box-sizing: border-box;
+}
+.story-item{
+    height: 348px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F2;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
 }

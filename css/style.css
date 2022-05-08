@@ -136,7 +136,7 @@ input:focus-visible{
     transition: background-color 0.1s linear;
 }
 
-.btn-submit:hover {
+button:hover {
     background-color: #2065CA;
     cursor: pointer;
 }

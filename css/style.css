@@ -51,11 +51,11 @@ body {
     line-height: 57px;
 }
 
-.text-black {
+.login-header-text-first {
     margin-left: 45px;
 }
 
-.text-blue {
+.login-header-text-second {
     color: #60a1ff;
     margin-left: 8px;
 }

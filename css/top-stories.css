@@ -34,6 +34,10 @@
     font-size: 18px;
     line-height: 57px;
 }
+.header-text-logo{
+    color: #FFFFFF;
+    margin-left: 40px;
+}
 
 /* SEARCH */
 .search {

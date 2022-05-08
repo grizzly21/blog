@@ -1,24 +1,25 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
 }
 
-*, :before, *:after{
+*, :before, *:after {
     box-sizing: border-box;
 }
 
-html, body{
+html, body {
     margin: 0;
 }
-body{
+
+body {
     background-color: #eff0f2;
     font-family: Rubik, sans-serif;
 }
 
 /* LOGIN */
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +27,7 @@ body{
     box-sizing: border-box;
 }
 
-.login-container{
+.login-container {
     width: 100%;
     max-width: 418px;
     height: 710px;
@@ -35,7 +36,8 @@ body{
     border-radius: 12px;
     box-shadow: 0 0 10px #d5d5d5;
 }
-.login-header{
+
+.login-header {
     display: flex;
     align-items: center;
     width: 100%;
@@ -49,48 +51,50 @@ body{
     line-height: 57px;
 }
 
-.text-black{
+.text-black {
     margin-left: 45px;
 }
-.text-blue{
+
+.text-blue {
     color: #60a1ff;
     margin-left: 8px;
 }
 
-.login-form{
+.login-form {
     box-sizing: border-box;
 }
 
-.simple-text{
+.simple-text {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
 }
 
-p.simple-text{
+p.simple-text {
     margin-top: 35px;
 }
 
-.form{
+.form {
     height: 346px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 20px 45px;
 }
-.inner_form_block{
+
+.inner_form_block {
     display: block;
     box-sizing: border-box;
 }
 
-.inner_form_block label{
+.inner_form_block label {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
 }
 
-.inner_form_block input{
+.inner_form_block input {
     margin-top: 4px;
     width: 100%;
     height: 48px;
@@ -100,7 +104,8 @@ p.simple-text{
     border: 1px solid #BFC4CA;
     border-radius: 4px;
 }
-.inner_form_block input::placeholder{
+
+.inner_form_block input::placeholder {
     color: #BFC4CA;
     line-height: 24px;
     font-weight: 400;
@@ -108,7 +113,7 @@ p.simple-text{
 
 }
 
-.btn-submit{
+.btn-submit {
     margin: 10px 45px;
     width: 327px;
     height: 48px;
@@ -122,7 +127,21 @@ p.simple-text{
     transition: background-color 0.1s linear;
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
     background-color: #5a98f3;
     cursor: pointer;
+}
+
+.link_block{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base-links{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3884F2;
 }

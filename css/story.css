@@ -1,0 +1,43 @@
+.small-container{
+    width: 100%;
+    max-width: 638px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.small-container img{
+    margin-top: 39px;
+    margin-bottom: 28px;
+    border-radius: 6px;
+}
+
+.story-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.user-author{
+    display: flex;
+    height: 50px;
+    margin-top: 17px;
+    margin-bottom: 29px;
+}
+
+.user-author img{
+    height: 42px;
+    margin: 0;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.date-posted{
+    color: #5F6871;
+}

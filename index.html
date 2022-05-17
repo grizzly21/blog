@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Eleks Blog</title>
-        <link href="css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com" rel="preconnect">
-        <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="flex-container">
-            <div class="login-container">
-                <div class="login-header">
-                    <span class="login-header-text-first">ELEKS</span>
-                    <span class="login-header-text-second">BLOG</span>
-                </div>
-                <div class="login-form">
-                    <p class="login-header-text-first simple-text">Create your account</p>
-                    <form action="#" class="form">
-                        <div class="inner_form_block">
-                            <label for="input-form-name">Name</label>
-                            <input id="input-form-name" placeholder="Enter your first or last name"
-                                   type="text">
-                        </div>
-                        <div class="inner_form_block">
-                            <label for="input-form-email">Email</label>
-                            <input id="input-form-email" placeholder="Enter your email"
-                                   type="email">
-                        </div>
-                        <div class="inner_form_block">
-                            <label for="input-form-password">Password</label>
-                            <input id="input-form-password" placeholder="Enter password"
-                                   type="password">
-                        </div>
-                        <div class="inner_form_block">
-                            <label for="input-form-repeat-password">Repeat password</label>
-                            <input id="input-form-repeat-password" placeholder="Re-enter password"
-                                   type="password">
-                        </div>
-                    </form>
-                    <button class="btn-submit" type="button">Create account</button>
-                </div>
-                <div class="link_block">
-                    <a class="base-links" href="#">I already have an account</a>
-                </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Eleks Blog</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="login-container">
+            <div class="login-header">
+                <span class="login-header-text-first">ELEKS</span>
+                <span class="login-header-text-second">BLOG</span>
+            </div>
+            <div class="login-form">
+                <p class="login-header-text-first simple-text">Create your account</p>
+                <form name="registerForm" class="form">
+                    <div class="inner_form_block">
+                        <label for="input-form-name">Name</label>
+                        <input id="input-form-name" 
+                        name="name" 
+                        placeholder="Enter your first or last name" 
+                        type="text" required/>
+                    </div>
+                    <div class="inner_form_block">
+                        <label for="input-form-email">Email</label>
+                        <input id="input-form-email" 
+                        name="email" 
+                        placeholder="Enter your email" 
+                        type="email" required/>
+                    </div>
+                    <div class="inner_form_block">
+                        <label for="input-form-password">Password</label>
+                        <input id="input-form-password" 
+                        name="password" 
+                        placeholder="Enter password"
+                         type="password" required />
+                    </div>
+                    <div class="inner_form_block">
+                        <label for="input-form-repeat-password">Repeat password</label>
+                        <input id="input-form-repeat-password" 
+                        name="repeatPassword" 
+                        placeholder="Re-enter password" 
+                        type="password" required/>
+                    </div>
+                    <div class="inner_form_block">
+                        <button class="btn-submit" type="submit">Create account</button>
+                    </div>
+                </form>
+            </div>
+            <div class="link_block">
+                <a class="base-links" href="#">I already have an account</a>
             </div>
         </div>
-    </body>
+    </div>
+
+    <script src="/js/register.js"></script> 
+
+</body>
 </html>

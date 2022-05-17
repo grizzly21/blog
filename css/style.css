@@ -80,7 +80,7 @@ p.simple-text {
 
 
 .form {
-    height: 346px;
+    height: 429px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -107,10 +107,11 @@ p.simple-text {
     background: #FFFFFF;
     border: 1px solid #BFC4CA;
     border-radius: 4px;
+    outline: none;
 }
 
-input:focus-visible{
-    border: none;
+input:focus {
+    border: 1px solid #BFC4CA;
 }
 
 
@@ -123,7 +124,7 @@ input:focus-visible{
 }
 
 .btn-submit {
-    margin: 10px 45px;
+    margin-top: 20px;
     width: 327px;
     height: 48px;
     background-color: #3884F2;

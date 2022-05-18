@@ -43,8 +43,7 @@ async function login(body){
                 window.location.href = '/html/top-stories.html';
                 return alert("Succes")
             }
-            alert('Wrong password');
         }
     }
-    alert("Wrong email")
+    alert("Wrong email or password");
 }

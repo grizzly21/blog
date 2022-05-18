@@ -2,8 +2,8 @@
 
 const apiURL = 'http://localhost:3000';
 
-async function sendReq() {
-    const response = await fetch(apiURL + '/user', {
+async function getAllUsers() {
+    const response = await fetch(apiURL + '/users', {
         method: "GET",
         headers: {
             'Accept': 'application/json'
@@ -15,8 +15,10 @@ async function sendReq() {
     }
 };
 
-sendReq().then(res => console.log(res));
+//getAllUsers().then(res => console.log(res));
 
+
+/* Get values form register form */ 
 document.forms['registerForm'].addEventListener('submit', e => {
     e.preventDefault();
     const form = document.forms['registerForm'];
@@ -31,26 +33,34 @@ document.forms['registerForm'].addEventListener('submit', e => {
             email: email,
             password: password
         }
-        
         registerUser(body);
+
+        form.reset();
     }else{
         alert('Passwords is not matched');
     }
 });
 
-async function registerUser(body){
-    console.log(body)
-    const response = await fetch(apiURL + '/registers', {
+
+/* User registration */
+async function registerUser(body) {
+    const response = await fetch(apiURL + '/users', {
         method: "POST",
-        mode: 'no-cors',
         headers: {
-            'Accept-Control-Request-Method': 'application/json',
-            'Content-Type': 'application/json; charset=utf-8'
+            'Content-Type': 'application/json'
         },
-        body: body.email
-        
-    });
-    if(response.ok === true){
-        return response;
-    }
+        body: JSON.stringify({
+            name: body.name,
+            email: body.email,
+            password: body.password
+        })
+    }).then(res => res.json())
+        .then(json => {
+            alert('User registered: ', json.name);
+        })
+        .catch(err => alert("Something problem", err))
+    
 }
+
+
+/*  User login servise  */ 

@@ -129,7 +129,7 @@
     grid-column-gap: 16px;
     width: 100%;
     max-width: 1440px;
-    padding: 20px 28px;
+    padding: 0 28px;
     box-sizing: border-box;
 }
 
@@ -140,6 +140,7 @@
     padding: 18px 24px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    margin-top: 16px;
 }
 
 .story-item-header {

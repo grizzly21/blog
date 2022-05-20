@@ -10,8 +10,7 @@ async function getAllUsers() {
         }
     });
     if(response.ok === true){
-        const user = await response.json();
-        return user;
+        return await response.json()
     }
 };
 

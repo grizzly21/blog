@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "name": "username",
+      "email": "email@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": 1,
+      "name": "igor",
+      "email": "igoe@meil",
+      "password": "password"
+    },
+    {
+      "name": "Andrii Khoma",
+      "email": "makintoch2104@gmail.com",
+      "password": "1",
+      "id": 2
+    },
+    {
+      "name": "Andrii Khoma",
+      "email": "makintoch2104@gmail.com",
+      "password": "1",
+      "id": 3
+    }
+  ],
+
+  "stories": [
+    {
+      "id": 1,
+      "title": "Some Title",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, magni temporibus! Adipisci alias deserunt earum iure laudantium maiores optio sit!",
+      "likes": 11,
+      "date": "19 May 2022",
+      "username": "Username"
+    },
+    {
+      "id": 2,
+      "title": "Some Title",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, magni temporibus! Adipisci alias deserunt earum iure laudantium maiores optio sit!",
+      "likes": 11,
+      "date": "19 May 2022",
+      "username": "Username"
+    },
+    {
+      "id": 3,
+      "title": "Some Title",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, magni temporibus! Adipisci alias deserunt earum iure laudantium maiores optio sit!",
+      "likes": 11,
+      "date": "19 May 2022",
+      "username": "Username"
+    },
+    {
+      "id": 4,
+      "title": "Some Title",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, magni temporibus! Adipisci alias deserunt earum iure laudantium maiores optio sit!",
+      "likes": 11,
+      "date": "19 May 2022",
+      "username": "Username"
+    },
+
+    {
+      "id": 5,
+      "title": "Some Title",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, magni temporibus! Adipisci alias deserunt earum iure laudantium maiores optio sit!",
+      "likes": 11,
+      "date": "19 May 2022",
+      "username": "Username"
+    },
+    {
+      "id": 6,
+      "title": "Some",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, magni temporibus! Adipisci alias deserunt earum iure laudantium maiores optio sit!",
+      "likes": 11,
+      "date": "19 May 2022",
+      "username": "Username"
+    }
+  ]
+}

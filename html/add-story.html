@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Stories</title>
+    <script src="../js/guard.js"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/top-stories.css" rel="stylesheet">
+    <link href="../css/story.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header-container">
+                <div class="header-logo">
+                    <span class="login-header-text-first header-text-logo">ELEKS</span>
+                    <span class="login-header-text-second">BLOG</span>
+                </div>
+                <div class="search">
+                    <img alt="#" src="../assets/search-logo.png">
+                    <input class="search-input" placeholder="Search blog" type="search">
+                </div>
+            </div>
+            <div class="profile">
+                <img alt="#" src="../assets/profile-icon.png" onclick="logout()">
+            </div>
+        </header>
+        <div class="bellow-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"
+                onclick="window.location.href = '/html/top-stories.html'">
+                <path
+                    d="M19,11H9l3.29-3.29a1,1,0,0,0,0-1.42,1,1,0,0,0-1.41,0l-4.29,4.3A2,2,0,0,0,6,12H6a2,2,0,0,0,.59,1.4l4.29,4.3a1,1,0,1,0,1.41-1.42L9,13H19a1,1,0,0,0,0-2Z" />
+            </svg>
+            <h3 class="third-head-text">All stories</h3>
+        </div>
+        <div class="small-container">
+            <img alt="#" src="https://via.placeholder.com/638x236.png">
+            <form name="addStory">
+                <div class="inner-form-block">
+                    <label for="inputTitle">Enter title</label>
+                    <input type="text" name="title" id="inputTitle" required>
+                </div>
+                <div class="inner-form-block">
+                    <label for="storyContent">Enter content</label>
+                    <textarea name="content" id="storyContent" cols="30" rows="10" required></textarea>
+                </div>
+                <button class="btn-add btn-submit" type="submit">Publish Stories</button>
+            </form>
+        </div>
+    </div>
+    <script src="/js/add-story.js"></script>
+</body>
+</html>
